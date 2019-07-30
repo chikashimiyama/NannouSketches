@@ -1,5 +1,5 @@
 [package]
-name = "points"
+name = "nannou_sketch"
 version = "0.1.0"
 authors = ["Chikashi Miyama <chikashimiyama@gmail.com>"]
 edition = "2018"
@@ -9,3 +9,11 @@ edition = "2018"
 [dependencies]
 nannou = "0.10"
 rand = "0.7.0"
+
+[[example]]
+name = "points"
+path = "examples/points/main.rs"
+
+[[example]]
+name = "lines"
+path = "examples/lines/main.rs"
